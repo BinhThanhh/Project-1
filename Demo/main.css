@@ -1,22 +1,27 @@
-h1 {
-    color: aqua;
-    background-color: black;
+#hd1 {
+    color: blue;
 }
-#div-1 {
-    background-color: red;
+#hd2 {
+    text-align: center;
+    background-color: #FECFFD;
+    color: #FF3399;
 }
-#div-2 {
-    background-color: green;
+#d1 {
+    background-color: #FFFFCC;
 }
-#div-3 {
-    background-color: yellow;
+#p1 {
+    color: #0000FF;
+    text-align: center;
 }
-#div-4 {
-    background-color: blue;
+#p2 {
+    color: #FF3399;
+    text-align: center;
 }
-.black {
-    color: black;
+#p3 {
+    color: #006600;
+    text-align: center;
 }
-.wheat {
-    color: wheat;
+hr {
+    text-align: center;
+    width: 16%;
 }
