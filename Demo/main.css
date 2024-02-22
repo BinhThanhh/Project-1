@@ -1,0 +1,22 @@
+h1 {
+    color: aqua;
+    background-color: black;
+}
+#div-1 {
+    background-color: red;
+}
+#div-2 {
+    background-color: green;
+}
+#div-3 {
+    background-color: yellow;
+}
+#div-4 {
+    background-color: blue;
+}
+.black {
+    color: black;
+}
+.wheat {
+    color: wheat;
+}
