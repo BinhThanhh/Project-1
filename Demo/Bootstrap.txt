@@ -1,0 +1,3 @@
+Bootstrap: Là thư viện của html và css kết hợp cùng 1 chút javascript. Nó giúp developer tạo nhanh các Component trên giao diện tĩnh.
+- Điểm mạnh: Giúp tạo nhanh các component trên giao diện và responsive giao diện theo các thiết bị khác nhau
+- Điểm yếu: Gây nặng website, nhiều thành phần không dùng đến.
