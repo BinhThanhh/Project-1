@@ -1,3 +1,9 @@
 Bootstrap: Là thư viện của html và css kết hợp cùng 1 chút javascript. Nó giúp developer tạo nhanh các Component trên giao diện tĩnh.
 - Điểm mạnh: Giúp tạo nhanh các component trên giao diện và responsive giao diện theo các thiết bị khác nhau
 - Điểm yếu: Gây nặng website, nhiều thành phần không dùng đến.
+
+Hệ thống lưới trong Bootstrap:
+- Có 3 thành phần:
+    + container: Độ rộng tối đa là 1140px và căn giữa
+    + row: Độ rộng 100% theo container và dc chia thành 12 cột đều nhau
+    + col-x-y: (Trong đó x là đại diện cho thiết bị, y là đại diện cho số cột của thiết bị đó): dùng để chia các thành phần hiển thị trên website theo các kích thước có sẵn
