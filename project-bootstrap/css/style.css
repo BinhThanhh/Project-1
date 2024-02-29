@@ -1,0 +1,27 @@
+section {
+    padding: 50px 0;
+}
+h2, h5 {
+    text-transform: capitalize;
+    font-size: 36px;
+}
+#class p, #library p {
+    text-align: justify;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+#footer-bottom p {
+    border-top: 1px solid #666;
+    padding-top: 40px;
+}
+h4 {
+    text-transform: capitalize;
+}
+ul {
+    padding-left: 0px;  
+}
+li {
+    list-style: none;
+}

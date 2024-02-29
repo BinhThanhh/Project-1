@@ -1,0 +1,20 @@
+#header {
+    margin-bottom: 20px;
+}
+#main {
+    height: inherit;
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+#image {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+}
+#more_text {
+    margin-top: 20px;
+    position: relative;
+    float: right;
+}
