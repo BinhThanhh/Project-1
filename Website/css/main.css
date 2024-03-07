@@ -1,0 +1,21 @@
+body {
+    background-image: url("images/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    color: white;
+}
+#header {
+    background-color: rgba(0, 0, 0, 0.45);
+    background-blend-mode: lighten;
+}
+.p1 {
+    display: inline;
+    font-size: 150%;
+    margin-right: 5%;
+}
+.main-page {
+    display: inline;
+    font-size: 130%;
+    
+}
