@@ -8,16 +8,50 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="#" onsubmit="check()">
+        <label for="name">Nhập tên</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Nhập Email</label>
+        <input type="email" id="email">
+        <button type="submit" class="btn btn-success">Gửi</button>
+    </form>
+    <p id="display_name"></p>
 </body>
 <script src="js/bootstrap.js"></script>
 <script>
-    var check = "Đây là biến check";
-    if (check) {
-        console.log(check)
+    /*console.log(2+2);
+    console.log(10000000+900000000);
+    console.log(346723647+87863887-787)
+    for (let i = 1; i <= 10; i++) {
+        if(i < 10) {
+            document.write(i + ", ")
+        }
+        else {
+            document.write(i)
+        }
     }
-    else {
-        console.log("Không có lỗi cc j cả")
+    var number = [2, 4, 9, 1, 0, 6, 3];
+    var temp;
+    for(var i = 0; i < number.length - 1; i++) {
+        for(var j = i+1; j < number.length; j++) {
+            if (number[i] > number[j]) {
+                let temp = number[i];
+                number[i] = number[j];
+                number[j] = temp;
+            }
+        }
+    }
+    document.write(number)*/
+    function check() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var checkEmail = /^[^\s@]+@[^\s@].[^\s@]$/
+        if(name = "" || email == "") {
+            window.alert("Chưa đủ thông tin")
+        }
+        document.getElementById("display_name").innerHTML = "Xin chào: " + name
+        
     }
 </script>
 </html>
