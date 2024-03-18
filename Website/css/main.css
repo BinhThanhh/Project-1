@@ -1,17 +1,17 @@
 #body {
-    background-image: url("background/UI_Bg_Activity_WindField.png");
-    background-size: auto;
-}
-#main {
     background-image: url("background/backgound.jpg");
     background-size: 100%;
     background-blend-mode: color;
-    background-repeat: no-repeat;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0, 0.7);
     background-attachment:fixed;
 }
 #br {
     margin-top: -1%;
+}
+.p1 {
+    text-align: center;
+    display: inline;
+    font-size: 150%;
 }
 #p {
     font-size: 120%;
@@ -42,11 +42,6 @@ img {
     font-weight: bold;
     margin-top: 6%;
 }
-.p1 {
-    text-align: center;
-    display: inline;
-    font-size: 150%;
-}
 .main-page {
     color: white;
     display: inline;
@@ -63,4 +58,29 @@ img {
 }
 .box-des {
     height: 32%;
+}
+#footer {
+    margin-top: 4%;
+}
+.box-item {
+    height:400px;
+}
+
+
+#footer img {
+    padding-top: 25px;
+    width: 10%;
+}
+.text-footer {
+    font-size: 70%;
+    color: #8c8c8c;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+#footer a {
+    color: #bbbbbb;
+    font-size: 70%;
+}
+#footer a:hover {
+    text-decoration: underline;
 }

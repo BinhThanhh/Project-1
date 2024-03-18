@@ -10,7 +10,7 @@
     <title>Genshin Impact - miHoYo shop</title>
 </head>
 <body id="body">
-    <section id="header" class="p-3 mb-2 bg-primary bg-gradient text-primary-emphasis" style="--bs-bg-opacity: .5;">
+    <header id="header" class="p-3 mb-2 bg-primary bg-gradient text-primary-emphasis" style="--bs-bg-opacity: .5;">
         <div>
             <div class="row">
                 <div class="col-lg-4">
@@ -22,13 +22,13 @@
                             <a href="index.html" class = "main-page btn btn-outline-light">Trang chủ</a>
                         </div>
                         <div class="col-lg-3">
-                            <a href="index.html" class = "main-page btn btn-outline-light">Vật phẩm</a>
+                            <a href="item.html" class = "main-page btn btn-outline-light">Vật phẩm</a>
                         </div>
                         <div class="col-lg-3">
-                            <a href="index.html" class = "main-page btn btn-outline-light">Lưu niệm</a>
+                            <a href="souvenir.html" class = "main-page btn btn-outline-light">Lưu niệm</a>
                         </div>
                         <div class="col-lg-3">
-                            <a href="index.html" class = "main-page btn btn-outline-light">Tài khoản</a>
+                            <a href="account.html" class = "main-page btn btn-outline-light">Tài khoản</a>
                         </div>
                     </div>
                 </div>
@@ -43,14 +43,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </header>
     <section id="main">
-        <div id="br"></div>
-        
-        <div>
-            <center>
-                <img src="images/UI_Img_Sign_Common.png" alt="">
-            </center>
+            <div style="margin-top: -1%;">
+                <center>
+                    <p style="padding-top: 7%;"> </p>
+                    <img style="padding-bottom: 7%;" src="images/UI_Img_Sign_Common.png" alt="">
+                </center>
         </div>
         <div>
             <p id="p" class="text-center text-white">Chào mừng Nhà Lữ Hành đến với cửa hàng trực tuyến của miHoYo - tựa game Genshin Impact<br></p>
@@ -105,7 +104,110 @@
                 </div>
             </div>
         </div>
+        <div id="title" class="text-center p-3 mb-2 bg-white text-dark bg-gradient" style="--bs-bg-opacity: .5;">
+            Quà lưu niệm 💎
+        </div>
+        <div id="div-popular" class="container">
+            <div id = "popular" class="row">
+                <div class="col-lg-4">
+                    <div id="bg" class="p-3 mb-2 bg-white text-dark bg-gradient" style="--bs-bg-opacity: .5; height: 780px;">
+                        <div class="box">
+                            <center>
+                                <img id="character" src="images/luu-niem/fanbook-jp.jpg" alt="">
+                            </center>
+                        </div>
+                        <p id="name-char">Genshin Impact Fan Book</p>
+                        <div class="box-des">
+                            <p id="des">Thương hiệu: FAHASA<br>Nhập khẩu/ trong nước: Trong nước<br>Ngôn ngữ: Tiếng Anh<br>Loại nắp: Bìa cứng<br>Loại phiên bản: Phiên bản hàng năm<br>Nhà Phát Hành: Shufu<br>Năm xuất bản: 2023</p>
+                        </div>
+                        <a href="#" class="btn btn btn-info text-end ">Learn more</a>
+                    </div>
+                </div>
+                <div id="bg" class="col-lg-4">
+                    <div class="p-3 mb-2 bg-white text-dark bg-gradient" style="--bs-bg-opacity: .5; height: 780px;">
+                        <div class="box">
+                            <center>
+                                <img id="character" src="images/luu-niem/mockhoa.jpg" alt="">
+                            </center>
+                        </div>
+                        <p id="name-char">Anime Genshin Impact Móc khóa</p>
+                        <div class="box-des">
+                            <p id="des">Chất liệu: Acrylic<br>Màu sắc: Như được hiển thị<br>Kích thước: Hình ảnh tham khảo<br>Gói bao gồm: 1 CÁI</p>
+                        </div>
+                        <a href="#" class="btn btn btn-info text-end ">Learn more</a>
+                    </div>
+                </div>
+                <div id="bg" class="col-lg-4">
+                    <div class="p-3 mb-2 bg-white text-dark bg-gradient" style="--bs-bg-opacity: .5; height: 780px;">
+                        <div class="box">
+                            <center>
+                                <img id="character" src="images/luu-niem/lotchuot.jpg" alt="">
+                            </center>  
+                        </div>
+                        <p id="name-char">Miếng Lót Chuột genshin impact</p>
+                        <div class="box-des">
+                            <p id="des">Kích thước sản phẩm<br>700 * 300 * 3mm<br>800 * 300 * 3mm<br>900 * 400 * 3mm<br>1000 * 500 * 3mm<br>300 * 250 * 3mm.</p>
+                        </div>
+                        <a href="#" class="btn btn btn-info text-end ">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <footer id="footer" class="bg bg-black text-white footer">
+        <div class="container">
+            <center>
+                <img src="images/logo-GI.png" alt="">
+            </center>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-5"></div>
+                <div class="col-lg-4" style="margin-left: -50px; margin-top: 5px;">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://genshin.hoyoverse.com/en/company/privacy">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://genshin.hoyoverse.com/en/company/terms">Terms of Service</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://www.hoyoverse.com/about-us?utm_source=genshin&utm_medium=footer">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="mailto:genshin_cs@hoyoverse.com">Contact Us</a>
+                            </li>
+                          </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <center>
+                    <img style="width: 16%;" src="images/warning-age.png" alt="">
+                </center>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-center">
+                <p class="text-footer">PlayStation Family Mark," "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br>Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are trademarks and/or registered trademarks of Epic Games. All other trademarks are the property of their respective owners.</p>
+            </div>
+        </div>
+        <div class="container">
+            <center>
+                <img style="width: 25%;" src="images/logo-hoyoverse.png" alt="">
+            </center>
+        </div>
+        <div class="container text-center">
+            <p style="font-size: 75%; margin-top: 35px; margin-bottom: 0px; padding-bottom: 25px;">Copyright © COGNOSPHERE. All Rights Reserved.</p>
+        </div>
+        <div></div>
+    </footer>
 </body>
 <script src="js/bootstrap.js"></script>
 </html>
