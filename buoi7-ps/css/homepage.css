@@ -100,6 +100,9 @@
 #main-mid a:hover {
     color: #d3995f;
 }
+#products {
+    margin-bottom: 82px;
+}
 #products p {
     font-weight: 600;
     font-family: "Montserrat";
@@ -110,5 +113,46 @@
     color: #d3995f;
     font-family: 'Montserrat';
     font-weight: 600;
+}
+#main-body {
+    background-color: #f9f9f9;
+}
+#main-body h3 {
+    color: #d3995f;
+    padding-top: 65px;
+    padding-bottom: 47px;
+}
+#body-a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 15px;
+    border: 1px solid #d3995f;
+    padding: 18px 30px;
+    margin-bottom: 85px;
+}
+#main-body a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+#main-body span {
+    color: #d3995f;
+}
+.cost {
+    margin-top: 25px;
+    margin-bottom: 74px;
+}
+#main-footer {
+    background-color: #292929;
+}
+#main-footer h2 {
+    color: #d3995f;
+    text-align: center;
+    padding-top: 102px;
+}
+#main-footer h1 {
+    color: #f9f9f9;
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 106px;
 }
 /*font-family: "Montserrat", sans-serif;*/
