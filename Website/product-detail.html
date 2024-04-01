@@ -94,27 +94,58 @@
                         </div>
                         <div style="margin-top: 10%;">
                             <h6>Số lượng</h6>
+                            <button id="up" aria-label="Decrease"></button>
+                            <input type="text" role="spinbutton" aria-live="assertive" aria-valuenow="1" value="1">
+                            <button id="down" aria-label="Decrease"></button>
                         </div>
                     </div>
-                    <div>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Đặt hàng
-                        </button>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Xác nhận đặt hàng</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div style="margin-top: 5%;" class="row">
+                        <div class="col-lg-5">
+                            <!--Nút thêm vào giỏ-->
+                            <button style="width: 80%; height: 50px;" type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                <img style="width: 15%;" src="images/UI_Icon_Shop.png" alt="">
+                                Thêm vào giỏ hàng
+                            </button>
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel1">Thêm vào giỏ hàng</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                          Thêm vào giỏ hàng thành công!
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Xác nhận</button>
+                                        </div>
                                     </div>
-                                    <div class="modal-body">
-                                      Bạn có xác nhận đặt hàng không?
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Xác nhận</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <!--Nút đặt hàng-->
+                            <div style="margin-left:-60px;">
+                                <!-- Button trigger modal -->
+                                <button style="width: 70%; height: 50px;" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Đặt hàng
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Xác nhận đặt hàng</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                              Bạn có xác nhận đặt hàng không?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Hủy</button>
+                                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Xác nhận</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
