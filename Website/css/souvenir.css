@@ -10,6 +10,23 @@
     display: inline;
     font-size: 150%;
 }
+#button-1 {
+    margin-left: 15%;
+    margin-top: 1%;
+}
+#button-2 {
+    margin-top: 2%;
+}
+#search {
+    background-color: #8c8c8c;
+}
+#search img {
+    text-align: center;
+    width: 90%;
+}
+#header input {
+    width: 280px;
+}
 #main img {
     margin-top: 3%;
     width:6%;
