@@ -1,0 +1,57 @@
+#button-1 {
+    margin-left: 15%;
+    margin-top: 1%;
+}
+#button-2 {
+    margin-top: 2%;
+}
+#search {
+    background-color: #8c8c8c;
+}
+#search img {
+    text-align: center;
+    width: 90%;
+}
+#header input {
+    width: 280px;
+}
+#main {
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+#img-product {
+    width: 85%;
+}
+#main-product h6 {
+    display: inline;
+}
+#cost-main {
+    background-color: #f7f7f7;
+    height: 60px;
+    vertical-align: middle;
+    margin-top: 3%;
+}
+#cost {
+    padding-top: 15px;
+    margin-left: 10%;
+    color: red;
+}
+
+/*Footer*/
+#footer img {
+    padding-top: 25px;
+    width: 10%;
+}
+.text-footer {
+    font-size: 70%;
+    color: #8c8c8c;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+#footer a {
+    color: #bbbbbb;
+    font-size: 70%;
+}
+#footer a:hover {
+    text-decoration: underline;
+}
