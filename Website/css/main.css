@@ -20,6 +20,12 @@
 #button-2 {
     margin-top: 2%;
 }
+#shop {
+    margin-top: 20%;
+    margin-left: -50%;
+    height: 35px;
+    width: 60px;
+}
 #search {
     background-color: #8c8c8c;
 }
