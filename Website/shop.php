@@ -35,16 +35,16 @@
                 <div class="col-lg-5">
                     <div id="button-1" class="row">
                         <div class="col-lg-3">
-                            <button onclick="window.location.href = 'index.html'" class = "mp btn btn-outline-light">Trang chủ</button>
+                            <button onclick="window.location.href = 'index.php'" class = "mp btn btn-outline-light">Trang chủ</button>
                         </div>
                         <div class="col-lg-3">
-                            <button onclick="window.location.href = 'item.html'" class = "mp btn btn-outline-light">Vật phẩm</button>
+                            <button onclick="window.location.href = 'item.php'" class = "mp btn btn-outline-light">Vật phẩm</button>
                         </div>
                         <div class="col-lg-3">
-                            <button onclick="window.location.href = 'souvenir.html'" class = "mp btn btn-outline-light">Lưu niệm</button>
+                            <button onclick="window.location.href = 'souvenir.php'" class = "mp btn btn-outline-light">Lưu niệm</button>
                         </div>
                         <div class="col-lg-3">
-                            <button onclick="window.location.href = 'account.html'" class = "mp btn btn-outline-light">Tài khoản</button>
+                            <button onclick="window.location.href = 'account.php'" class = "mp btn btn-outline-light">Tài khoản</button>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                     <div class="row">
                         <div class="col-lg-1"></div>
                         <div class="col-lg-2">
-                            <button id="shop" onclick="window.location.href = 'shop.html'" class="btn btn-warning">
+                            <button id="shop" onclick="window.location.href = 'shop.php'" class="btn btn-warning">
                                 <center>
                                     <img style="width: 70%; margin-top:-20%;" src="images/UI_Icon_Shop.png" alt="">
                                 </center>
@@ -99,10 +99,6 @@
             </div>
         </div>
         <div id="main-1" class="container">
-            <ul class="list-group">
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                  <label class="form-check-label" for="firstCheckbox">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="row">
@@ -113,17 +109,18 @@
                                     <h6>Miếng Lót Chuột Genshin Impact</h6>
                                 </div>
                                 <div class="col-lg-4">
-                                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                                        <div class="btn-group" role="group">
-                                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                              Phân loại
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                              <li class="dropdown-item">Size M</li>
-                                              <li class="dropdown-item">Size L</li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Action
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                        </ul>
+                                      </div>
                                 </div>
                             </div>
                         </div>
@@ -140,7 +137,7 @@
                                     </button>
                                 </div>
                                 <div class="col-lg-4">
-                                    <input id="soluong" type="text" name="soluong" value="1" name="soluong">
+                                    <input id="soluong" type="text" name="soluong" value="1">
                                 </div>
                                 <div class="col-lg-2">
                                     <button id="up" class="btn-up btn btn-secondary" onclick="handelUp()">
@@ -150,69 +147,14 @@
                             </div>
                         </div>
                         <div class="col-lg-2">
-                            <h6 id="tongtien">24.000</h6>
+                            <h6 id="total"></h6>
                         </div>
-                    </div>
-                  </label>
-                </li>
-            </ul>
-            
+                    </div>        
         </div>
     </section>
-    <footer id="footer" class="bg bg-black text-white footer">
-        <div class="container">
-            <center>
-                <img src="images/logo-GI.png" alt="">
-            </center>
-        </div>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-4" style="margin-left: -50px; margin-top: 5px;">
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                          <ul class="navbar-nav">
-                            <li class="nav-item">
-                              <a class="nav-link" href="https://genshin.hoyoverse.com/en/company/privacy">Privacy Policy</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="https://genshin.hoyoverse.com/en/company/terms">Terms of Service</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="https://www.hoyoverse.com/about-us?utm_source=genshin&utm_medium=footer">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="mailto:genshin_cs@hoyoverse.com">Contact Us</a>
-                            </li>
-                          </ul>
-                        </div>
-                    </nav>
-                </div>
-                <div class="col-lg-3"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div>
-                <center>
-                    <img style="width: 16%;" src="images/warning-age.png" alt="">
-                </center>
-            </div>
-        </div>
-        <div class="container">
-            <div class="text-center">
-                <p class="text-footer">PlayStation Family Mark," "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br>Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are trademarks and/or registered trademarks of Epic Games. All other trademarks are the property of their respective owners.</p>
-            </div>
-        </div>
-        <div class="container">
-            <center>
-                <img style="width: 25%;" src="images/logo-hoyoverse.png" alt="">
-            </center>
-        </div>
-        <div class="container text-center">
-            <p style="font-size: 75%; margin-top: 35px; margin-bottom: 0px; padding-bottom: 25px;">Copyright © COGNOSPHERE. All Rights Reserved.</p>
-        </div>
-        <div></div>
-    </footer>
+    <?php
+        include('master/footer.php');
+    ?>
 </body>
 </html>
 <script src="js/bootstrap.js"></script>
@@ -242,10 +184,10 @@
         soLuong = isNaN(soLuong) ? 1 : soLuong
         soLuong = soLuong === 0 ? 1 : soLuong
     })
-</script>
-<script>
-    function tongtien(soLuong) {
-        let tongtien = soLuong * 24000
-        render(tongtien)
-    }
+    const resultElement = document.getElementById('total');
+    soLuong.addEventListener('change', () => {
+        const number = Result.value
+        const result = number * 24000
+        resultElement.textContent = result
+    });
 </script>

@@ -1,0 +1,10 @@
+#body {
+    background-image: url("background/backgound.jpg");
+    background-size: 100%;
+    background-blend-mode: color;
+    background-color: rgb(0, 0, 0, 0.7);
+    background-attachment:fixed;
+}
+#button-2 {
+    margin-top: 2%;
+}

@@ -52,7 +52,7 @@
                     <div class="row">
                         <div class="col-lg-1"></div>
                         <div class="col-lg-2">
-                            <button id="shop" onclick="window.location.href = 'shop.html'" class="btn btn-secondary">
+                            <button id="shop" onclick="window.location.href = 'shop.php'" class="btn btn-secondary">
                                 <center>
                                     <img style="width: 70%; margin-top:-20%;" src="images/UI_Icon_Shop.png" alt="">
                                 </center>
