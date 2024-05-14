@@ -28,21 +28,23 @@ header{
     margin-bottom: 5%;   
 }
 #btlogin {
-    background-color: #c1b9a4;
+    background-color: #d78c61;
     height: 37px;
-    width: 100px;
+    width: 255px;
     margin-bottom: 2%;
     margin-right: 9%;
+    margin-left: 9%;
 }
 #btlogin:hover {
-    color: #343029;
+    background-color: #b66c42;
 }
 #bt_signup {
-    background-color: #c1b9a4;
+    background-color: #f6c37e;
     height: 37px;
-    width: 100px;
-    margin-bottom: 2%;
+    width: 150px;
+    margin-left: 41%;
+    margin-bottom: -2%;
 }
 #bt_signup:hover {
-    color: #343029;
+    background-color: #c5762f;
 }

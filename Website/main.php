@@ -71,8 +71,8 @@
                         </div>
                         <div class="col-lg-1"></div>
                         <div id="button-2" class="col-lg-8">
-                            <button onclick="window.location.href = 'index.html'" class = "main-page btn btn-info text-end" style="margin-right: 5%">Đăng nhập</button>
-                            <button onclick="window.location.href = 'index.html'" class = "main-page btn btn-success text-end">Đăng kí</button>
+                            <button onclick="window.location.href = 'Login.php'" class = "main-page btn btn-info text-end" style="margin-right: 5%">Đăng nhập</button>
+                            <button onclick="window.location.href = 'signup.php'" class = "main-page btn btn-success text-end">Đăng kí</button>
                         </div>
                     </div>
                 </div>

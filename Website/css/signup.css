@@ -16,32 +16,39 @@ header{
     width: 900px;
     height: 526px;
 }
+#email {
+    height: 37px;
+    width: 255px;
+    margin-top: 2%;
+}
 #iuser {
     height: 37px;
     width: 255px;
-    margin-top: 5%;
-    margin-bottom: 3%;
+    margin-top: 2%;
 }
 #ipass {
     height: 37px;
     width: 255px;
-    margin-bottom: 5%;   
-}
-#btlogin {
-    background-color: #c1b9a4;
-    height: 37px;
-    width: 100px;
-    margin-bottom: 2%;
-}
-#btlogin:hover {
-    color: #343029;
+    margin-top: 2%;  
 }
 #bt_signup {
-    background-color: #c1b9a4;
+    background-color: #d78c61;
     height: 37px;
-    width: 100px;
+    width: 255px;
     margin-bottom: 2%;
+    margin-right: 9%;
+    margin-left: 9%;
 }
 #bt_signup:hover {
-    color: #343029;
+    background-color: #b66c42;
+}
+#btlogin {
+    background-color: #f6c37e;
+    height: 37px;
+    width: 150px;
+    margin-left: 41%;
+    margin-bottom: -2%;
+}
+#btlogin:hover {
+    background-color: #c5762f;
 }
